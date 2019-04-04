@@ -1,25 +1,39 @@
-
-# Exclude the build directory
-
-build/*
-
-# Exclude temp nibs and swap files
-
-*.swp
-
-# Exclude OS X folder attributes
-
+### OSX ###
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# Exclude user-specific XCode 3 and 4 files
+# Icon must end with two \r
+Icon
 
-*.pbxuser
 
-*.xcworkspace
+# Thumbnails
+._*
 
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+lib/
+*.ipa
 xcuserdata
 
 
-#CocoaPods
-Pods
+*.xcworkspace/
 Podfile.lock
+Pods/
+libksylivedep/
+ffmpeg/
+gas-preprocessor/
+
